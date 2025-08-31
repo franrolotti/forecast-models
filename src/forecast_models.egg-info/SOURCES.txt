@@ -2,7 +2,6 @@ LICENSE
 README.md
 pyproject.toml
 src/forecast_models/__init__.py
-src/forecast_models/cli.py
 src/forecast_models/registry.py
 src/forecast_models.egg-info/PKG-INFO
 src/forecast_models.egg-info/SOURCES.txt
@@ -12,4 +11,9 @@ src/forecast_models.egg-info/requires.txt
 src/forecast_models.egg-info/top_level.txt
 src/forecast_models/data/loaders.py
 src/forecast_models/data/transforms.py
+src/forecast_models/eval/__init__.py
+src/forecast_models/eval/backtest.py
+src/forecast_models/eval/metrics.py
 src/forecast_models/models/arima.py
+src/forecast_models/models/base.py
+src/forecast_models/models/io.py
